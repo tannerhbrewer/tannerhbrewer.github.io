@@ -26,7 +26,6 @@
                     <div class="name">Utilities Package</div>
                     <div class="type">Unity Package</div>
                     <div class="description">A useful package of tools</div>
-                    <img src="images/right-arrow.png" class="link">
                 </div>
                 <div class="project-container middle-container">
                     <div class="name">Discord Bot</div>
@@ -101,9 +100,8 @@
         width: 75%;
 
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
+        justify-content: center;
     }
 
     .middle-container{
@@ -114,6 +112,7 @@
     .project-container .name{
         background-color: rgb(88, 88, 88);
         font-size: 20px;
+        float: left;
     }
 
     .project-container .type{
@@ -127,15 +126,7 @@
     .project-container .description{
         background-color: rgb(88, 88, 88);
         color: rgb(153, 153, 153);
+        line-height: 20px;
         font: 15px;
-    }
-
-    .project-container .link{
-        height: 50px;
-        width: 50px;
-        background-color: rgb(88, 88, 88);
-
-        position: absolute;
-        margin-left: 10%;
     }
 </style>
