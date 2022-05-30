@@ -37,26 +37,23 @@
         color: white;
         text-align: center;
     }
-
-    body{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     
     .section-holder{
-        width: 80%;
-        height: 900px;
+        width: 99%;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
-        align-content: center;
+        justify-content: center;
+
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
     }
 
     .section {
         border: 1px solid white;
-        height: 700px;
+        height: fit-content;
         width: 30%;
         flex-basis: 700px;
         flex-grow: 1;
